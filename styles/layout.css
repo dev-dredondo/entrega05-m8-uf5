@@ -1,0 +1,79 @@
+body {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-attachment: fixed;
+    background-position: center;
+    font-size:13px;
+    font-family: 'Nosifer';
+}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+a{outline:none; text-decoration:none;}
+div.espaciador{display:block; width:960px; margin:5px auto; padding:0; text-align:center;}
+.fila1, .fila1{color:#979797; background-color:#ff6c00bf; border-top-left-radius: 25px;border-top-right-radius: 25px;}
+.fila1, .fila1 a{color:#ffffff;}
+.fila2{color:#ff6c00;}
+
+.fila3{color:#ffffff; background-color:#ff6c00bf;}
+#header, #footer{display:block; width:960px;}
+#header, #contenidor, #footer{display:block; width:960px;}
+nav ul{margin:0; padding:0; list-style:none;}
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:22px; font-weight:bold; font-style:normal; line-height:normal; text-transform:uppercase;}
+.primeratirada_tercera{display:block; float:left; margin:0 30px 0 0;}
+.primeratirada_tercera{width:300px;}
+.ultimacaixa{margin-right:0;}
+#header #grup_header{padding:20px 0 0 20px; float:left;}
+#header #grup_header h1, #header #grup_header h2{font-weight:normal; text-transform:none;}
+#header #grup_header h1{font-size:36px;}
+#header #grup_header h2{font-size:13px;}
+#header nav li a:hover{color:#FF9900; background-color:#FFFFFF;}
+#header nav{display:block; float:right; margin:30px 0 0 0; padding:20px;}
+#header nav ul{}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase; color: #AAAAAA;}
+#header nav li.ultim{margin-right:0;}
+#header nav li a{padding:5px 8px;}
+#contenidor section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+#contenidor .ultim{margin:0;}
+#contenidor #eslogan{margin-bottom:0px; padding:30px 0;}
+#contenidor #eslogan h1{font-size:56px; font-weight:normal; font-style:italic; text-transform:uppercase; text-align:center;}
+#contenidor #eslogan p{font-size:16px; margin:30px; padding-bottom:0; line-height:1.8em;}
+#contenidor #personatges{margin-bottom:50px; line-height:1.6em;}
+#contenidor #personatges article h2{font-size:14px; margin-bottom:15px;}
+#contenidor #personatges article p{margin:0; padding:0;}
+#contenidor #personatges article img{width:200px; margin:0 10px 10px 0; padding:4px;}
+#contenidor #personatges article footer{margin:10px 0 0 0;}
+#footer{padding:20px 0;}
+#footer p{margin:0; padding:0; text-align:right;}
+#footer img{height:100px;}
+#contenidor{background-color: #0000007d;}
+.fila3{border-bottom-left-radius: 25px;border-bottom-right-radius: 25px}
+
+div.gallery {
+    margin: 5px;
+    /*border: 1px solid #ccc;*/
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    /*border: 1px solid #777;*/
+    transform: scale(1.5, 1.5);
+}
+
+div.gallery img {
+    width: 100%;
+    height: 125px;
+}
+
+#pjust{text-align: justify}
+#pjustloc, #pjustnum, #pjustemail{text-align: center;color: white}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
